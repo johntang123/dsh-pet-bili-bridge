@@ -1,0 +1,21 @@
+{
+  "name": "dsh-pet-bili-bridge",
+  "description": "把 WorkBuddy 与 dsh-bili-scroll 的干活状态喂给 dsh-pet 桌宠的本地桥接插件市场。",
+  "owner": {
+    "name": "dsh-pet-bili-bridge contributors",
+    "email": ""
+  },
+  "metadata": {
+    "version": "0.1.0",
+    "protocol": "agent-link/v1"
+  },
+  "plugins": [
+    {
+      "name": "wb-pet-bridge",
+      "description": "WorkBuddy 侧桥接：会话开始/工具调用/会话结束时向桌宠写六态事件。",
+      "source": "./plugins/wb-pet-bridge",
+      "category": "integration",
+      "version": "0.1.0"
+    }
+  ]
+}

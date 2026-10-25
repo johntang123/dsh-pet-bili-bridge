@@ -1,0 +1,19 @@
+# 构建产物
+dist/
+*.zip
+
+# 临时/备份
+*.bak-*
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+
+# 依赖
+node_modules/
+__pycache__/
+*.pyc
+
+# 编辑器
+.vscode/
+.idea/

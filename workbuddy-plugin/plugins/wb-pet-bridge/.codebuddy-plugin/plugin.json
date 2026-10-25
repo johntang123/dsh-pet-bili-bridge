@@ -1,0 +1,13 @@
+{
+  "name": "wb-pet-bridge",
+  "version": "0.1.0",
+  "description": "WorkBuddy 侧桥接插件：把会话开始 / 工具调用 / 会话结束写成桌宠能读的 JSONL 事件（~/.dsh-pet-bridge/agents/workbuddy.jsonl）。不联网、不读正文、只写状态元数据。",
+  "author": {
+    "name": "dsh-pet-bili-bridge contributors",
+    "email": ""
+  },
+  "homepage": "",
+  "repository": "",
+  "license": "MIT",
+  "hooks": "./hooks/hooks.json"
+}
